@@ -22,7 +22,7 @@ To prevent infinite loops, duplicate events, and data loss, the sync strictly en
 
 1.  **Notion Database Configuration:** Setup the required properties (Title, Date, `gcal_event_id`, and `last_edited_time`).
 2.  **API Provisioning:** Generate a Notion Internal Integration Token and share the target database with the integration.
-3.  **Google Apps Script Setup:** Create a `.gs` project, link the Google Calendar Advanced Service, and securely store the Notion API key in Script Properties.
+3.  **Google Apps Script Setup:** Create a `.gs` project, link the Google Calendar Advanced Service, paste the content of `main.gs` and securely store the Notion API key in Script Properties.
 4.  **Deployment:** Deploy the codebase and configure the Time-Driven Triggers (e.g., every 5 to 15 minutes).
 
 ## 🛠 Troubleshooting
